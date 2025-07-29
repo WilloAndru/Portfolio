@@ -4,7 +4,7 @@ import Proyect from "./Proyect";
 function App() {
   const projects = [
     {
-      title: "EcoMercado (Please wait 30s to connect.)",
+      title: "EcoMercado - (Wait 30s to connect)",
       img: "ecomercado.png",
       href: "https://eco-mercado.vercel.app/",
       description1:
