@@ -28,7 +28,7 @@ function Proyect(props) {
           ) : (
             <SlArrowDown className="icon" />
           )}
-          <h5 className="text">{isShowMore ? "Ver menos" : "Más detalles"}</h5>
+          <h5 className="text">{isShowMore ? "See less" : "More details"}</h5>
         </button>
         {isShowMore && (
           <h5 className={`description ${isShowMore ? "show" : "hide"}`}>
