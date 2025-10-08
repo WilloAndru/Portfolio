@@ -30,6 +30,24 @@ function App() {
       description2:
         "Using React and JavaScript functions for the algorithms, the game features an interface to select cards and choose the difficulty. It also includes a tutorial to understand the rules. The goal is to defeat the algorithm, which controls the opposing deck's decisions, in the fewest turns possible.",
     },
+    {
+      title: "ControlCash - (Wait 30s to connect)",
+      img: "controlcash.png",
+      href: "https://control-cash-lrc4.vercel.app/",
+      description1:
+        "This project functions as a financial projection calculator. Its goal is to allow users to estimate how long it would take to purchase a property based on their monthly savings. The frontend is built with React TypeScript",
+      description2:
+        "This project serves as a personal finance tracker and projection tool. Its purpose is to help users manage their monthly income and expenses while visualizing how their savings evolve over time. By analyzing spending patterns, the system provides insights and projections that guide users toward achieving financial goals.",
+    },
+    {
+      title: "PickMeUp",
+      img: "pickmeup.png",
+      href: "https://willoandru.github.io/PickMeUp/",
+      description1:
+        "This project was created with the goal of learning the fundamentals of Tailwind CSS and improving programming logic using TypeScript. It is a frontend-based game simulator inspired by the manhwa Pick Me Up.",
+      description2:
+        "Beyond its technical goals, this project focuses on creating an engaging user experience through dynamic interfaces and smooth visual feedback. It experiments with responsive design and interactive components built with Tailwind CSS, aiming to deliver a visually appealing and intuitive simulation with gacha and levels.",
+    },
   ];
 
   return (
@@ -39,13 +57,13 @@ function App() {
         <h2>By Wilson Criollo</h2>
       </div>
       <h4>
-        In this section, I present some of the web projects I have worked on
-        using React, MySQL, Node.js, Express, and PHP. I am passionate about
-        coding in my free time, and these projects are the result of that
-        dedication and enthusiasm for creating digital solutions.
+        In this section, I present some of the web projects I’ve worked on using
+        technologies such as React, MySQL, Node.js, TypeScript, and Tailwind
+        CSS. I’m passionate about coding in my free time, and these projects
+        reflect my dedication and enthusiasm for building digital solutions.
       </h4>
       <div className="proyects">
-        {projects.slice(0, 3).map((p, i) => {
+        {projects.slice(0, 5).map((p, i) => {
           return (
             <Proyect
               key={i}
