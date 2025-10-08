@@ -33,7 +33,7 @@ function App() {
     {
       title: "ControlCash - (Wait 30s to connect)",
       img: "controlcash.png",
-      href: "https://control-cash-lrc4.vercel.app/",
+      href: "https://control-cash-lrc4-ol7as3gdn.vercel.app/",
       description1:
         "This project functions as a financial projection calculator. Its goal is to allow users to estimate how long it would take to purchase a property based on their monthly savings. The frontend is built with React TypeScript",
       description2:
