@@ -57,10 +57,10 @@ function App() {
         <h2>By Wilson Criollo</h2>
       </div>
       <h4>
-        In this section, I present some of the web projects I’ve worked on using
-        technologies such as React, MySQL, Node.js, TypeScript, and Tailwind
-        CSS. I’m passionate about coding in my free time, and these projects
-        reflect my dedication and enthusiasm for building digital solutions.
+        Here are some of the web projects I’ve built using React, Node.js,
+        MySQL, TypeScript, and Tailwind CSS. They showcase my focus on clean,
+        functional design and my passion for continuous learning in web
+        development.
       </h4>
       <div className="proyects">
         {projects.slice(0, 5).map((p, i) => {
