@@ -13,6 +13,24 @@ function App() {
         "The platform includes all the essential features of a modern e-commerce site, such as an admin panel, shopping cart, payment processing, login and registration, as well as an intuitive user interface. I also implemented filtering and search functionality to make browsing through categories and products easier.",
     },
     {
+      title: "HappyPaws",
+      img: "happypaws.png",
+      href: "https://happy-paws-sr4m.vercel.app/",
+      description1:
+        "This project works as a complete online pet shop platform. Its purpose is to allow users to explore products, manage a shopping cart, and authenticate securely. The frontend is built with Next.js and integrates Firebase authentication services.",
+      description2:
+        "This project functions as a full-stack e-commerce system for pet products. It helps users browse items with pagination, save favorites, and complete purchases using Stripe payments. The backend uses PostgreSQL with Prisma to manage data efficiently, while Firebase handles user authentication and security.",
+    },
+    {
+      title: "ControlCash - (Wait 30s to connect)",
+      img: "controlcash.png",
+      href: "https://control-cash-lrc4-ol7as3gdn.vercel.app/",
+      description1:
+        "This project functions as a financial projection calculator. Its goal is to allow users to estimate how long it would take to purchase a property based on their monthly savings. The frontend is built with React TypeScript",
+      description2:
+        "This project serves as a personal finance tracker and projection tool. Its purpose is to help users manage their monthly income and expenses while visualizing how their savings evolve over time. By analyzing spending patterns, the system provides insights and projections that guide users toward achieving financial goals.",
+    },
+    {
       title: "ProLegal",
       img: "prolegal.png",
       href: "https://willoandru.github.io/ProLegal/",
@@ -29,15 +47,6 @@ function App() {
         "This card game pits the player against an algorithm with various difficulty levels. It allows creating a deck to compete in turn-based battles and includes a scoring system, all developed on the frontend.",
       description2:
         "Using React and JavaScript functions for the algorithms, the game features an interface to select cards and choose the difficulty. It also includes a tutorial to understand the rules. The goal is to defeat the algorithm, which controls the opposing deck's decisions, in the fewest turns possible.",
-    },
-    {
-      title: "ControlCash - (Wait 30s to connect)",
-      img: "controlcash.png",
-      href: "https://control-cash-lrc4-ol7as3gdn.vercel.app/",
-      description1:
-        "This project functions as a financial projection calculator. Its goal is to allow users to estimate how long it would take to purchase a property based on their monthly savings. The frontend is built with React TypeScript",
-      description2:
-        "This project serves as a personal finance tracker and projection tool. Its purpose is to help users manage their monthly income and expenses while visualizing how their savings evolve over time. By analyzing spending patterns, the system provides insights and projections that guide users toward achieving financial goals.",
     },
     {
       title: "PickMeUp",
@@ -63,7 +72,7 @@ function App() {
         development.
       </h4>
       <div className="proyects">
-        {projects.slice(0, 5).map((p, i) => {
+        {projects.map((p, i) => {
           return (
             <Proyect
               key={i}
