@@ -19,7 +19,7 @@ function Home() {
       img: "ecomercado.png",
       href: "https://eco-mercado.vercel.app/",
       description:
-        "Proyecto de comercio electrónico que ofrece productos ecológicos y sostenibles, desarrollado con PostgreSQL, React y Node.js. La plataforma está desplegada usando Vercel para el frontend y backend, y Railway para la base de datos y servicios.",
+        "Plataforma de comercio electrónico de productos sostenibles con autenticación de usuario, carrito de compras, búsqueda avanzada con filtrado y paginación, CRUD de productos para usuarios vendedores y dashboard para administradores.",
       technologies: [
         listTechnologies.react,
         listTechnologies.tailwind,
@@ -32,7 +32,7 @@ function Home() {
       img: "happypaws.png",
       href: "https://happy-paws-sr4m.vercel.app/",
       description:
-        "Este proyecto funciona como una plataforma completa de tienda en línea para mascotas. Su propósito es permitir a los usuarios explorar productos, gestionar un carrito de compras y autenticarse de forma segura. El frontend está construido con Next.js e integra servicios de autenticación de Firebase.",
+        "Plataforma de comercio electrónico especializada en productos para mascotas con autenticación de usuario, carrito de compras, búsqueda avanzada con filtrado y paginación, e integración de pagos con Stripe.",
       technologies: [
         listTechnologies.nextjs,
         listTechnologies.tailwind,
@@ -44,7 +44,7 @@ function Home() {
       img: "controlcash.png",
       href: "https://control-cash-lrc4.vercel.app/",
       description:
-        "Este proyecto funciona como una calculadora de proyecciones financieras. Su objetivo es permitir a los usuarios estimar cuánto tiempo les tomaría comprar una propiedad basándose en sus ahorros mensuales. Construido con React.ts, Node.js y PostgreSQL.",
+        "Aplicación web de proyección financiera para calcular el tiempo de adquisición de vivienda, con autenticación de usuario, diseño responsive con SASS, suscripción recurrente implementada con Stripe y modo claro/oscuro.",
       technologies: [
         listTechnologies.react,
         listTechnologies.tailwind,
@@ -54,11 +54,23 @@ function Home() {
       ],
     },
     {
+      title: "PriceCompare",
+      img: "pricecompare.png",
+      href: "https://pricecompare-seven.vercel.app/",
+      description:
+        "Herramienta web que extrae información de las principales cadenas de supermercados, mostrando el precio de los productos en tablas, con funcionalidad de exportación a Excel y modo claro/oscuro.",
+      technologies: [
+        listTechnologies.react,
+        listTechnologies.tailwind,
+        listTechnologies.nodejs,
+      ],
+    },
+    {
       title: "ProLegal",
       img: "prolegal.png",
       href: "https://willoandru.github.io/ProLegal/",
       description:
-        "Proyecto conceptual para firmas de abogados diseñado para facilitar la venta de consultas legales. La solución usa un stack tradicional basado en PHP. Solo se muestra el lado del cliente aquí para evitar sobrecargar recursos en la nube.",
+        "Sitio web para un bufete de abogados con autenticación de usuario, sistema de solicitud de consultas y visualización de citas programadas. (Actualmente sin base de datos, pero funcional en producción).",
       technologies: [listTechnologies.react, listTechnologies.nodejs],
     },
     {
@@ -66,7 +78,7 @@ function Home() {
       img: "pickmeup.png",
       href: "https://willoandru.github.io/PickMeUp/",
       description:
-        "Este proyecto fue creado con el objetivo de aprender los fundamentos de Tailwind CSS y mejorar la lógica de programación usando TypeScript. Es un simulador de juego basado en frontend inspirado en el manhwa Pick Me Up.",
+        "Videojuego con sistema de entidades, progresión de niveles y gacha para obtención de personajes.",
       technologies: [listTechnologies.react, listTechnologies.ts],
     },
     {
@@ -74,7 +86,7 @@ function Home() {
       img: "cartas.png",
       href: "https://willoandru.github.io/Cartas/",
       description:
-        "Este juego de cartas enfrenta al jugador contra un algoritmo con varios niveles de dificultad. Permite crear un mazo para competir en batallas por turnos e incluye un sistema de puntuación, todo desarrollado en el frontend.",
+        "Videojuego de cartas con sistema de inteligencia artificial y mecánicas de batalla.",
       technologies: [listTechnologies.react],
     },
   ];
