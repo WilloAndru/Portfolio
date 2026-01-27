@@ -1,5 +1,4 @@
-import "./App.css";
-import Proyect from "./Proyect";
+import Proyect from "./components/Proyect";
 
 function App() {
   const projects = [
@@ -8,69 +7,69 @@ function App() {
       img: "ecomercado.png",
       href: "https://eco-mercado.vercel.app/",
       description1:
-        "E-commerce project offering eco-friendly and sustainable products, developed with PostgreSQL, Express, React, and Node.js. The platform is deployed using Vercel for the frontend and backend, and Railway for the database and services.",
+        "Proyecto de comercio electrónico que ofrece productos ecológicos y sostenibles, desarrollado con PostgreSQL, Express, React y Node.js. La plataforma está desplegada usando Vercel para el frontend y backend, y Railway para la base de datos y servicios.",
       description2:
-        "The platform includes all the essential features of a modern e-commerce site, such as an admin panel, shopping cart, payment processing, login and registration, as well as an intuitive user interface. I also implemented filtering and search functionality to make browsing through categories and products easier.",
+        "La plataforma incluye todas las características esenciales de un sitio de comercio electrónico moderno, como panel de administración, carrito de compras, procesamiento de pagos, inicio de sesión y registro, además de una interfaz de usuario intuitiva. También implementé funcionalidad de filtrado y búsqueda para facilitar la navegación a través de categorías y productos.",
     },
     {
       title: "HappyPaws",
       img: "happypaws.png",
       href: "https://happy-paws-sr4m.vercel.app/",
       description1:
-        "This project works as a complete online pet shop platform. Its purpose is to allow users to explore products, manage a shopping cart, and authenticate securely. The frontend is built with Next.js and integrates Firebase authentication services.",
+        "Este proyecto funciona como una plataforma completa de tienda en línea para mascotas. Su propósito es permitir a los usuarios explorar productos, gestionar un carrito de compras y autenticarse de forma segura. El frontend está construido con Next.js e integra servicios de autenticación de Firebase.",
       description2:
-        "This project functions as a full-stack e-commerce system for pet products. It helps users browse items with pagination, save favorites, and complete purchases using Stripe payments. The backend uses PostgreSQL with Prisma to manage data efficiently, while Firebase handles user authentication and security.",
+        "Este proyecto funciona como un sistema de comercio electrónico completo para productos de mascotas. Ayuda a los usuarios a navegar artículos con paginación, guardar favoritos y completar compras usando pagos de Stripe. El backend usa PostgreSQL con Prisma para gestionar datos eficientemente, mientras que Firebase maneja la autenticación de usuarios y seguridad.",
     },
     {
       title: "ControlCash",
       img: "controlcash.png",
-      href: "https://control-cash-lrc4-ol7as3gdn.vercel.app/",
+      href: "https://control-cash-lrc4.vercel.app/",
       description1:
-        "This project functions as a financial projection calculator. Its goal is to allow users to estimate how long it would take to purchase a property based on their monthly savings. Build with React.ts, Node.js and PostgreSQL",
+        "Este proyecto funciona como una calculadora de proyecciones financieras. Su objetivo es permitir a los usuarios estimar cuánto tiempo les tomaría comprar una propiedad basándose en sus ahorros mensuales. Construido con React.ts, Node.js y PostgreSQL.",
       description2:
-        "This project serves as a personal finance tracker and projection tool. Its purpose is to help users manage their monthly income and expenses while visualizing how their savings evolve over time. By analyzing spending patterns, the system provides insights and projections that guide users toward achieving financial goals.",
+        "Este proyecto sirve como una herramienta de seguimiento y proyección de finanzas personales. Su propósito es ayudar a los usuarios a gestionar sus ingresos y gastos mensuales mientras visualizan cómo evolucionan sus ahorros con el tiempo. Al analizar patrones de gasto, el sistema proporciona información y proyecciones que guían a los usuarios hacia el logro de objetivos financieros.",
     },
     {
       title: "ProLegal",
       img: "prolegal.png",
       href: "https://willoandru.github.io/ProLegal/",
       description1:
-        "Conceptual project for law firms designed to facilitate the sale of legal consultations. The solution uses a traditional PHP-based stack. Only the client-side is shown here to avoid overloading cloud resources.",
+        "Proyecto conceptual para firmas de abogados diseñado para facilitar la venta de consultas legales. La solución usa un stack tradicional basado en PHP. Solo se muestra el lado del cliente aquí para evitar sobrecargar recursos en la nube.",
       description2:
-        "The platform includes all the essential functionalities for a law firm, such as an admin panel, advisor panel, client management, scheduling consultations, login and registration, as well as a minimalist interface.",
+        "La plataforma incluye todas las funcionalidades esenciales para una firma de abogados, como panel de administración, panel de asesores, gestión de clientes, programación de consultas, inicio de sesión y registro, además de una interfaz minimalista.",
     },
     {
       title: "Card Clash",
       img: "cartas.png",
       href: "https://willoandru.github.io/Cartas/",
       description1:
-        "This card game pits the player against an algorithm with various difficulty levels. It allows creating a deck to compete in turn-based battles and includes a scoring system, all developed on the frontend.",
+        "Este juego de cartas enfrenta al jugador contra un algoritmo con varios niveles de dificultad. Permite crear un mazo para competir en batallas por turnos e incluye un sistema de puntuación, todo desarrollado en el frontend.",
       description2:
-        "Using React and JavaScript functions for the algorithms, the game features an interface to select cards and choose the difficulty. It also includes a tutorial to understand the rules. The goal is to defeat the algorithm, which controls the opposing deck's decisions, in the fewest turns possible.",
+        "Usando React y funciones JavaScript para los algoritmos, el juego presenta una interfaz para seleccionar cartas y elegir la dificultad. También incluye un tutorial para entender las reglas. El objetivo es derrotar al algoritmo, que controla las decisiones del mazo oponente, en la menor cantidad de turnos posible.",
     },
     {
       title: "PickMeUp",
       img: "pickmeup.png",
       href: "https://willoandru.github.io/PickMeUp/",
       description1:
-        "This project was created with the goal of learning the fundamentals of Tailwind CSS and improving programming logic using TypeScript. It is a frontend-based game simulator inspired by the manhwa Pick Me Up.",
+        "Este proyecto fue creado con el objetivo de aprender los fundamentos de Tailwind CSS y mejorar la lógica de programación usando TypeScript. Es un simulador de juego basado en frontend inspirado en el manhwa Pick Me Up.",
       description2:
-        "Beyond its technical goals, this project focuses on creating an engaging user experience through dynamic interfaces and smooth visual feedback. It experiments with responsive design and interactive components built with Tailwind CSS, aiming to deliver a visually appealing and intuitive simulation with gacha and levels.",
+        "Más allá de sus objetivos técnicos, este proyecto se enfoca en crear una experiencia de usuario atractiva a través de interfaces dinámicas y retroalimentación visual fluida. Experimenta con diseño responsivo y componentes interactivos construidos con Tailwind CSS, con el objetivo de ofrecer una simulación visualmente atractiva e intuitiva con gacha y niveles.",
     },
   ];
 
   return (
     <div className="body">
       <div className="titles">
-        <h1>Programming Projects</h1>
-        <h2>By Wilson Criollo</h2>
+        <h1>Proyectos de Programación</h1>
+        <h3>Por Wilson Criollo</h3>
       </div>
-      <h4>
-        Here are some of the web projects I’ve built using React, Node.js,
-        MySQL, TypeScript, and Tailwind CSS. They showcase my focus on clean,
-        functional design and my passion for continuous learning in web
-        development.
-      </h4>
+      <h6>
+        Aquí hay algunos de los proyectos web que he construido usando React,
+        Node.js, PostgreSQL, TypeScript y Tailwind CSS. Muestran mi enfoque en
+        diseño limpio y funcional y mi pasión por el aprendizaje continuo en
+        desarrollo web.
+      </h6>
       <div className="proyects">
         {projects.map((p, i) => {
           return (

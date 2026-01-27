@@ -15,7 +15,7 @@ function Proyect(props) {
       <div>
         <h3>{props.title}</h3>
         <img src={props.img} />
-        <h5>{props.description1}</h5>
+        <h6>{props.description1}</h6>
         <button
           onClick={(e) => {
             e.preventDefault();
@@ -28,12 +28,12 @@ function Proyect(props) {
           ) : (
             <SlArrowDown className="icon" />
           )}
-          <h5 className="text">{isShowMore ? "See less" : "More details"}</h5>
+          <h6 className="text">{isShowMore ? "See less" : "More details"}</h6>
         </button>
         {isShowMore && (
-          <h5 className={`description ${isShowMore ? "show" : "hide"}`}>
+          <h6 className={`description ${isShowMore ? "show" : "hide"}`}>
             {props.description2}
-          </h5>
+          </h6>
         )}
       </div>
     </a>
