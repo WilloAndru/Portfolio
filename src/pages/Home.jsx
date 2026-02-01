@@ -117,6 +117,7 @@ function Home() {
               title={p.title}
               img={p.img}
               description={p.description}
+              href={p.href}
               technologies={p.technologies}
               documentation={p.documentation}
             />
