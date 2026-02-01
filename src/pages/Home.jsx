@@ -26,6 +26,7 @@ function Home() {
         listTechnologies.nodejs,
         listTechnologies.psql,
       ],
+      documentation: "https://github.com/WilloAndru/EcoMercado",
     },
     {
       title: "HappyPaws",
@@ -38,6 +39,7 @@ function Home() {
         listTechnologies.tailwind,
         listTechnologies.psql,
       ],
+      documentation: "https://github.com/WilloAndru/HappyPaws",
     },
     {
       title: "ControlCash",
@@ -52,6 +54,7 @@ function Home() {
         listTechnologies.nodejs,
         listTechnologies.psql,
       ],
+      documentation: "https://github.com/WilloAndru/ControlCash",
     },
     {
       title: "PriceCompare",
@@ -64,6 +67,7 @@ function Home() {
         listTechnologies.tailwind,
         listTechnologies.nodejs,
       ],
+      documentation: "https://github.com/WilloAndru/TrabajoOmar",
     },
     {
       title: "ProLegal",
@@ -72,6 +76,7 @@ function Home() {
       description:
         "Sitio web para un bufete de abogados con autenticación de usuario, sistema de solicitud de consultas y visualización de citas programadas. (Actualmente sin base de datos, pero funcional en producción).",
       technologies: [listTechnologies.react, listTechnologies.nodejs],
+      documentation: "https://github.com/WilloAndru/ProLegal",
     },
     {
       title: "PickMeUp",
@@ -80,6 +85,7 @@ function Home() {
       description:
         "Videojuego con sistema de entidades, progresión de niveles y gacha para obtención de personajes.",
       technologies: [listTechnologies.react, listTechnologies.ts],
+      documentation: "https://github.com/WilloAndru/PickMeUp",
     },
     {
       title: "Card Clash",
@@ -88,6 +94,7 @@ function Home() {
       description:
         "Videojuego de cartas con sistema de inteligencia artificial y mecánicas de batalla.",
       technologies: [listTechnologies.react],
+      documentation: "https://github.com/WilloAndru/Cartas",
     },
   ];
 
@@ -111,6 +118,7 @@ function Home() {
               img={p.img}
               description={p.description}
               technologies={p.technologies}
+              documentation={p.documentation}
             />
           );
         })}
