@@ -19,7 +19,7 @@ function Proyect(props) {
         </div>
         <img src={props.img} />
         <div className="flex flex-col p-3 gap-3">
-          <h6>{props.description}</h6>
+          <p>{props.description}</p>
           <button
             className="bg-linear-to-br from-green-400 to-blue-600 border-none px-4 py-2 rounded-xl cursor-pointer hover:opacity-85"
             onClick={(e) => {

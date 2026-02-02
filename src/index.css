@@ -12,6 +12,10 @@ h6 {
   @apply font-bold;
 }
 
+p {
+  @apply font-semibold;
+}
+
 h1 {
   @apply text-2xl;
 }

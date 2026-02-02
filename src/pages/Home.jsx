@@ -104,11 +104,11 @@ function Home() {
         <h1>Proyectos de Programación</h1>
         <h3>Por Wilson Criollo</h3>
       </div>
-      <h6>
+      <p>
         Una selección de proyectos web desarrollados con React.ts, Node.js,
         PostgreSQL y Tailwind CSS. Reflejan mi enfoque en interfaces limpias,
         soluciones funcionales y mejora continua como desarrollador web.
-      </h6>
+      </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-">
         {projects.map((p, i) => {
           return (
