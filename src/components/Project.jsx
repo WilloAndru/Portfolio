@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Proyect(props) {
+function Project(props) {
   return (
     <Link
       to={props.href}
@@ -36,4 +36,4 @@ function Proyect(props) {
   );
 }
 
-export default Proyect;
+export default Project;

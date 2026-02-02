@@ -6,7 +6,7 @@ export default function MainLayout() {
   const { darkMode, setDarkMode } = useTheme();
 
   const linkStyle = ({ isActive }) =>
-    `h-full flex items-center px-5 transition-all duration-150 whitespace-nowrap
+    `h-full flex items-center px-[2vw] transition-all duration-150 whitespace-nowrap
     ${isActive ? "border-b-2" : "hover:scale-105"}`;
 
   return (
@@ -16,7 +16,7 @@ export default function MainLayout() {
           <NavLink to="/Portfolio/aboutMe" className={linkStyle}>
             Sobre mi
           </NavLink>
-          <NavLink to="/Portfolio/" className={linkStyle}>
+          <NavLink to="/Portfolio/projects" className={linkStyle}>
             Mis proyectos
           </NavLink>
           <NavLink to="/Portfolio/contact" className={linkStyle}>
@@ -32,7 +32,7 @@ export default function MainLayout() {
         </button>
       </header>
 
-      <div className="w-9/10 max-w-275 pt-25 pb-10">
+      <div className="w-9/10 max-w-275 pt-25 pb-10 min-h-screen">
         <Outlet />
       </div>
     </div>

@@ -1,18 +1,7 @@
-import Proyect from "../components/Proyect";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
-import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
+import Proyect from "../components/Project";
+import { listTechnologies } from "../data/listTechonologies";
 
-function Home() {
-  const listTechnologies = {
-    react: [FaReact, "fill-cyan-500"],
-    tailwind: [RiTailwindCssFill, "fill-cyan-500"],
-    nodejs: [FaNodeJs, "fill-green-500"],
-    psql: [BiLogoPostgresql, "fill-indigo-400"],
-    nextjs: [RiNextjsFill, "fill-white"],
-    ts: [BiLogoTypescript, "fill-blue-500"],
-  };
-
+function Projects() {
   const projects = [
     {
       title: "EcoMercado",
@@ -24,7 +13,7 @@ function Home() {
         listTechnologies.react,
         listTechnologies.tailwind,
         listTechnologies.nodejs,
-        listTechnologies.psql,
+        listTechnologies.postgreSQL,
       ],
       documentation: "https://github.com/WilloAndru/EcoMercado",
     },
@@ -37,7 +26,7 @@ function Home() {
       technologies: [
         listTechnologies.nextjs,
         listTechnologies.tailwind,
-        listTechnologies.psql,
+        listTechnologies.postgreSQL,
       ],
       documentation: "https://github.com/WilloAndru/HappyPaws",
     },
@@ -52,7 +41,7 @@ function Home() {
         listTechnologies.tailwind,
         listTechnologies.ts,
         listTechnologies.nodejs,
-        listTechnologies.psql,
+        listTechnologies.postgreSQL,
       ],
       documentation: "https://github.com/WilloAndru/ControlCash",
     },
@@ -102,7 +91,6 @@ function Home() {
     <div className="flex flex-col gap-8">
       <div className="text-center">
         <h1>Proyectos de Programación</h1>
-        <h3>Por Wilson Criollo</h3>
       </div>
       <p>
         Una selección de proyectos web desarrollados con React.ts, Node.js,
@@ -110,22 +98,20 @@ function Home() {
         soluciones funcionales y mejora continua como desarrollador web.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-">
-        {projects.map((p, i) => {
-          return (
-            <Proyect
-              key={i}
-              title={p.title}
-              img={p.img}
-              description={p.description}
-              href={p.href}
-              technologies={p.technologies}
-              documentation={p.documentation}
-            />
-          );
-        })}
+        {projects.map((p, i) => (
+          <Proyect
+            key={i}
+            title={p.title}
+            img={p.img}
+            description={p.description}
+            href={p.href}
+            technologies={p.technologies}
+            documentation={p.documentation}
+          />
+        ))}
       </div>
     </div>
   );
 }
 
-export default Home;
+export default Projects;
