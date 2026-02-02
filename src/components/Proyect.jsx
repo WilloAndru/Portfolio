@@ -8,7 +8,7 @@ function Proyect(props) {
       rel="noopener noreferrer"
       className="bg-linear-to-br from-green-400 to-blue-600 rounded-xl h-fit"
     >
-      <div className="text-start bg-gray-950 rounded-xl transition-all duration-200 hover:scale-[0.97]">
+      <div className="text-start bg-card rounded-xl transition-all duration-200 hover:scale-[0.97]">
         <div className="p-3 flex justify-between items-center">
           <h3>{props.title}</h3>
           <div className="flex gap-2 text-2xl">
