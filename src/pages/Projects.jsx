@@ -39,7 +39,7 @@ function Projects() {
       technologies: [
         listTechnologies.react,
         listTechnologies.tailwind,
-        listTechnologies.ts,
+        listTechnologies.typeScript,
         listTechnologies.nodejs,
         listTechnologies.postgreSQL,
       ],
@@ -73,7 +73,7 @@ function Projects() {
       href: "https://willoandru.github.io/PickMeUp/",
       description:
         "Videojuego con sistema de entidades, progresión de niveles y gacha para obtención de personajes.",
-      technologies: [listTechnologies.react, listTechnologies.ts],
+      technologies: [listTechnologies.react, listTechnologies.typeScript],
       documentation: "https://github.com/WilloAndru/PickMeUp",
     },
     {
@@ -93,9 +93,10 @@ function Projects() {
         <h1>Proyectos de Programación</h1>
       </div>
       <p>
-        Una selección de proyectos web desarrollados con React.ts, Node.js,
-        PostgreSQL y Tailwind CSS. Reflejan mi enfoque en interfaces limpias,
-        soluciones funcionales y mejora continua como desarrollador web.
+        Una selección de proyectos web desarrollados con
+        ReactlistTechnologies.typeScript, Node.js, PostgreSQL y Tailwind CSS.
+        Reflejan mi enfoque en interfaces limpias, soluciones funcionales y
+        mejora continua como desarrollador web.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-">
         {projects.map((p, i) => (
