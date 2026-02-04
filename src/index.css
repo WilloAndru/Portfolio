@@ -41,8 +41,3 @@ h3 {
 .bg-btn {
   @apply hover:bg-gray-300 dark:hover:bg-gray-700;
 }
-
-input,
-textarea {
-  @apply;
-}

@@ -13,7 +13,7 @@ export default function MainLayout() {
     <div className="bg-base flex flex-col items-center w-full">
       <header className="fixed top-0 z-10 bg-card flex items-center h-15 w-full font-semibold px-2">
         <nav className="absolute md:left-1/2 md:-translate-x-1/2 flex h-full">
-          <NavLink to="/Portfolio/aboutMe" className={linkStyle}>
+          <NavLink to="/Portfolio/" end className={linkStyle}>
             Sobre mi
           </NavLink>
           <NavLink to="/Portfolio/projects" className={linkStyle}>
