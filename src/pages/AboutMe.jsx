@@ -23,7 +23,7 @@ export default function AboutMe() {
           </span>
           <h6 className="mt-4">Descarga mi currículum</h6>
           <a
-            href="HDV.pdf"
+            href="HDV.docx.pdf"
             download
             className="rounded-xl flex items-center justify-center gap-2 p-3 bg-base bg-btn font-semibold"
           >
