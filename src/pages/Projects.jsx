@@ -35,7 +35,7 @@ function Projects() {
       img: "controlcash.png",
       href: "https://control-cash-lrc4.vercel.app/",
       description:
-        "Aplicación web de proyección financiera para calcular el tiempo de adquisición de vivienda, con autenticación de usuario, diseño responsive con SASS, suscripción recurrente implementada con Stripe y modo claro/oscuro.",
+        "Aplicación web de proyección financiera para calcular el tiempo de adquisición de vivienda, con autenticación de usuario, diseño responsive, suscripción recurrente implementada con Stripe y modo claro/oscuro.",
       technologies: [
         listTechnologies.react,
         listTechnologies.tailwind,
@@ -93,10 +93,10 @@ function Projects() {
         <h1>Proyectos de Programación</h1>
       </div>
       <p>
-        Una selección de proyectos web desarrollados con
-        ReactlistTechnologies.typeScript, Node.js, PostgreSQL y Tailwind CSS.
-        Reflejan mi enfoque en interfaces limpias, soluciones funcionales y
-        mejora continua como desarrollador web.
+        Una selección de proyectos web desarrollados con React, Next.js,
+        TypeScript, Node.js, PostgreSQL y Tailwind CSS. Reflejan mi enfoque en
+        interfaces limpias, soluciones funcionales y mejora continua como
+        desarrollador web.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-">
         {projects.map((p, i) => (

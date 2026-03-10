@@ -15,11 +15,11 @@ export default function AboutMe() {
           <h6>Wilson Andrés Criollo Rodríguez</h6>
           <h3>Desarrollador Web FullStack</h3>
           <span className="text-sm">
-            Más de 3 años desarrollando software de forma autodidacta. He
-            desarrollado proyectos web desde cero hasta su despliegue en
-            producción, con enfoque en arquitectura, rendimiento y experiencia
-            de usuario. Trabajo bajo un proceso de mejora continua apoyado en
-            métricas para optimizar la calidad y el desempeño.
+            Estudiante de Ingeniería de Sistemas en último semestre,
+            especializado en desarrollo web full stack. Enfoque en arquitectura
+            de software escalable, optimización de rendimiento y despliegue en
+            producción. Impacto comprobado en más de 5 proyectos académicos
+            desplegados en la nube.
           </span>
           <h6 className="mt-4">Descarga mi currículum</h6>
           <a
